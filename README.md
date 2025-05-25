@@ -38,7 +38,7 @@ The project was designed to explore gender representation trends among coauthors
 ## How It Works
 
 1. **Fetch Coauthors**  
-   Pulls works authored by a target author from OpenAlex (before 2015), extracts coauthors, filters out initials-only names, and counts occurrences.
+   Pulls works authored by a target author from OpenAlex, extracts coauthors, filters out initials-only names, and counts occurrences.
 
 2. **Infer Gender**  
    Uses the `gender-guesser` library to infer the gender of each coauthor using their first name.
@@ -57,7 +57,8 @@ The project was designed to explore gender representation trends among coauthors
 
 | File | Description |
 |------|-------------|
-| `coauthor_gender_analysis.py` | Main script for fetching, counting, and classifying coauthors |
+| `hi.py` | script for fetching and counting coauthors |
+| `hi3.py` | script for classifying coauthors |
 | `coauthors_with_counts.csv` | Generated intermediate file with coauthor names and counts |
 | `authors_with_gender.csv` | Final output with coauthor gender labels and counts |
 
